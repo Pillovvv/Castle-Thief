@@ -39,7 +39,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Caste-Thief"
-run/main_scene="res://Main Menu.tscn"
+run/main_scene="res://src/Menus/MainMenu/MainMenu.tscn"
 config/icon="res://icon.png"
 
 [autoload]
@@ -55,4 +55,4 @@ enabled=PoolStringArray( "github-integration" )
 
 [rendering]
 
-environment/default_environment="res://default_env.tres"
+environment/default_environment="res://assets/Themes/default_env.tres"
